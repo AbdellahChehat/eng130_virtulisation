@@ -1,0 +1,19 @@
+
+# Create a Virtual machine using vagrant 
+# Virtual box
+# Vagrant
+# ruby - dev-kit
+# test the installation 
+# vagrant 
+# ruby --version
+
+#Create  
+Vagrant.configure("2") do |config|
+
+ config.vm.box = "ubuntu/xenial64"
+# creating a virtual machine ubuntu 
+
+ 
+
+
+end
