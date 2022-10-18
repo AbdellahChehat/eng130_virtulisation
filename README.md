@@ -117,3 +117,5 @@ Vagrant is a tool for building and managing virtual machine environments in a si
 
 ## What is a virtual box?
 VirtualBox is open-source software for virtualizing the x86 computing architecture. It acts as a hypervisor, creating a VM (virtual machine) where the user can run another OS (operating system).
+
+<img width="586" alt="Screenshot 2022-10-18 at 17 39 14" src="https://user-images.githubusercontent.com/115224560/196491547-0b097c60-6f5b-4e7f-a161-2b8c823a5508.png">
