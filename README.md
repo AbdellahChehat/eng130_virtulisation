@@ -36,5 +36,5 @@ process in $
 - Install 'nginx' in our VM
 - Create a 'private-network' between localhost and vm
 - allocate an IP addree - for 
-
+- 
 

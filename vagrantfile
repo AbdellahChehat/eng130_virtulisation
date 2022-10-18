@@ -18,3 +18,21 @@ config.vm.network "private_network", ip: '192.168.56.10'
 
 
 end
+
+# exit out of your vm
+
+   
+
+   # run vagrant reload from your localhost - from same location
+
+   
+
+   # where your vagrantfile
+
+   
+
+   # vagrant ssh
+
+   
+
+   # sudo apt-get install nginx -y
