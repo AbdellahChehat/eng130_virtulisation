@@ -1,5 +1,5 @@
 # Virtualisation
-## Dev Env
+
 
 ### Important commands in linux to remember  
 
@@ -86,7 +86,6 @@
   
 - print last lines from the test.txt
 - Answer: tail -1 test.txt
-- 
 - research how to use `| pipe` &`grep` & `sort`
 - `| pipe` 
 - `grep` 
@@ -107,9 +106,19 @@ process in $
 
 ## What is virtualisation & benefits of it?
 
-- Virtualization relies on software to simulate hardware functionality and create a virtual computer system. This enables IT organizations to run more than one virtual system – and multiple operating systems and applications – on a single server. The resulting benefits include economies of scale and greater efficiency.
+- Virtualization relies on software to simulate hardware functionality and create a virtual computer system. This enables IT organizations to run more than one virtual system – and multiple operating systems and applications – on a single server. 
+
+### Benefits of virtualisation
+
+- Greater efficiency.
+- Increased flexibility
+- Better security
+- Improved performance
+- Improved availability
+- Saving money 
 
 ## What is dev env?
+
 A development environment in software and web development is a workspace for developers to make changes without breaking anything in a live environment.
 
 ## What is vagrant?
@@ -120,5 +129,11 @@ VirtualBox is open-source software for virtualizing the x86 computing architectu
 
 <img width="586" alt="Screenshot 2022-10-18 at 17 39 14" src="https://user-images.githubusercontent.com/115224560/196491547-0b097c60-6f5b-4e7f-a161-2b8c823a5508.png">
 
+
+### My diagram:
+
 <img width="845" alt="Screenshot 2022-10-19 at 09 13 29" src="https://user-images.githubusercontent.com/115224560/196635128-4026201e-abba-421b-b727-70fcd4a291c7.png">
 
+### Link to repo to install and set up RUBY,VAGRANT AND VIRTUALBOX
+
+- 
