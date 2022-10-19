@@ -136,4 +136,14 @@ VirtualBox is open-source software for virtualizing the x86 computing architectu
 
 ### Link to repo to install and set up RUBY,VAGRANT AND VIRTUALBOX
 
-- 
+- ---------------
+
+BASH scripting – file.sh
+
+
+`#!/bin/bash` this is must be the first line
+
+Change permission so that file is executable  chmod +x file.sh
+
+to run sudo ./provision.sh
+
