@@ -7,7 +7,7 @@
 ```
 #!/bin/bash
 ```
-###  The following code is waht is included in the `provision.sh` 
+###  The following code is what is included in the `provision.sh` 
 
 - Update system & than Upgrade it
 ```
