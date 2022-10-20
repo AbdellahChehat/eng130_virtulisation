@@ -64,3 +64,12 @@ sudo npm install
 
  config.vm.provision "shell", path: "provision.sh"
 ```
+
+### Final steps:
+
+- `vagrant destroy`  make sure spell destroy correctly
+- `vagrant up` Create a virtualmachine again
+- `vagrant status` Ensure it's running 
+- `vagrant ssh` 
+- Inside the vm cd into the app folder 
+- Finally run  `npm start`
