@@ -147,3 +147,68 @@ Change permission so that file is executable  chmod +x file.sh
 
 to run sudo ./provision.sh
 
+-----------------
+ 
+
+ `/var/log/nginx`
+
+ store a copy of the log on the cloud 
+
+ `sudo rm /etc/nginx/sites-available/default`
+
+ -repalce it with your own file `sudo cp exisitng-location /etc/nginx/sites-available/default`
+
+ - `sudo nginx -t`
+ - restart `sudo systemctl restart nginx`
+ - - Enable `sudo systemctl enablec nginx`
+
+
+---------- 
+Linux Enviroment var
+
+- syntax NAME = Abdullah 
+- How to check existing env var `env`
+- `export` to create env var 
+- `printenv` var
+- `export DB_HOST=DB-IP:27017
+  
+  
+  ### Permanentaly add env var
+
+- Open the file `sudo nano /etc/environment`
+
+- Add the variable `MY_VAR=hello`
+
+- Save the file `ctrl + x` and `y`
+
+- Close the terminal and open a new one
+
+- Check if the variable is set `echo $MY_VAR` or `printenv`
+
+### Method 2:
+
+https://phoenixnap.com/kb/linux-set-environment-variable
+
+DB_HOST=DB-IP:27017
+
+STEP 1 : Create 2 VMs 1.1 set up an in app machine 
+1.2 install mongoDB in db machine 
+
+Step2: Install required of monogoDB  with valid key
+
+Step3: Ensure it's running -3.1 change mongob.conf file to allow access to everyone 
+
+Step4:restart mongoDB then enable then check status to ensure it's running with new config. cat mongob.conf  
+
+back to app machine to create env var called 
+
+export DB_HOST="mongodb//192.168.33.150:27017/posts"
+
+
+`sudo systemctl status mongod`
+`sudo systemctl restart mongod`
+`sudo systemctl enable mongod`
+
+- back to app machine 
+- create an env var called DB_HOST=mongofb://192.168.56.13:27017/posts
+- `printenv DB_HOST`
