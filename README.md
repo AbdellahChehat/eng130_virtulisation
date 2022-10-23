@@ -212,3 +212,5 @@ export DB_HOST="mongodb//192.168.33.150:27017/posts"
 - back to app machine 
 - create an env var called DB_HOST=mongofb://192.168.56.13:27017/posts
 - `printenv DB_HOST`
+
+----------
